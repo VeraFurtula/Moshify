@@ -20,17 +20,30 @@
 </head>
 
 <body>
-    <div class="callout callout--primary">
-        <div class="grid grid--1x2">
-            <div class="callout__content">
-                <h2 class="callout__heading">Ready to get started</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nam itaque sed minus, cupiditate
-                    placeat tempora ipsa eius dolorum quis minima soluta quidem deserunt saepe quos nihil? Totam, eos
-                    illo.</p>
-            </div>
-            <a href="#" class="btn btn--secondary btn--stretched">Get started</a>
-        </div>
+    <div class="collapsible collapsible--expanded">
+        <header class="collapsible__header">
+            <h2>Item 1</h2>
+            <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+        </header>
+        <div class="collapsible__content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, explicabo
+            commodi! Deleniti sit repellendus minima nam aperiam ipsum quia, minus quisquam ex libero possimus, itaque
+            fuga rem atque a numquam?</div>
+    </div>
+
+    <div class="collapsible collapsible--expanded">
+        <header class="collapsible__header">
+            <h2>Item 1</h2>
+            <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+        </header>
+        <div class="collapsible__content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, explicabo
+            commodi! Deleniti sit repellendus minima nam aperiam ipsum quia, minus quisquam ex libero possimus, itaque
+            fuga rem atque a numquam?</div>
     </div>
 </body>
+<script src="js/main.js"></script>
 
 </html>
