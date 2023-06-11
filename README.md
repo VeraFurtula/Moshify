@@ -6,7 +6,7 @@ Moshify - Building a responsive website for an imaginary cloud hosting called Mo
     
 ## Technologies Used
 
-JavaScript
-CSS3
-HTML5
+- JavaScript
+- CSS3
+- HTML5
 
